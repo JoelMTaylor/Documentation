@@ -7,27 +7,30 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Blank Copy Copy Copy - CCM how-to&#39;s and documentation</title>
-    <meta name="title" content="Blank Copy Copy Copy - CCM how-to's and documentation">
+    <title>Multi-factor Authentication (MFA /2FA) - CCM how-to&#39;s and documentation</title>
+    <meta name="title" content="Multi-factor Authentication (MFA /2FA) - CCM how-to's and documentation">
+    <meta name="description" content="Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://joelmtaylor.github.io/Documentation/corporate-systems/blank---copy---copy---copy/">
-    <meta property="og:title" content="Blank Copy Copy Copy - CCM how-to's and documentation">
+    <meta property="og:url" content="https://joelmtaylor.github.io/Documentation/corporatesystems/multi-factor-authentication/">
+    <meta property="og:title" content="Multi-factor Authentication (MFA /2FA) - CCM how-to's and documentation">
+    <meta property="og:description" content="Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://joelmtaylor.github.io/Documentation/corporate-systems/blank---copy---copy---copy/">
-    <meta property="twitter:title" content="Blank Copy Copy Copy - CCM how-to's and documentation">
+    <meta property="twitter:url" content="https://joelmtaylor.github.io/Documentation/corporatesystems/multi-factor-authentication/">
+    <meta property="twitter:title" content="Multi-factor Authentication (MFA /2FA) - CCM how-to's and documentation">
+    <meta property="twitter:description" content="Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/Documentation/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/Documentation/favicon.ico" rel="icon" />
-    <link href="/Documentation/resources/css/retype.css?v=1.11.2.700867669061" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/Documentation/resources/css/retype.css?v=1.11.2.700869893156" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.700867669061" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.700869893156" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/Documentation/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.700867669061" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.700869893156" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -221,12 +224,117 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="blank-copy-copy-copy" class="break-words">
+<doc-anchor-target id="multi-factor-authentication-mfa-2fa" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#blank-copy-copy-copy">#</doc-anchor-trigger>
-        <span>Blank Copy Copy Copy</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#multi-factor-authentication-mfa-2fa">#</doc-anchor-trigger>
+        <span>Multi-factor Authentication (MFA /2FA)</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="what-is-multi-factor-authentication">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-multi-factor-authentication">#</doc-anchor-trigger>
+        <span>What is multi-factor authentication?</span>
+    </h2>
+</doc-anchor-target>
+<p>Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication. One of the problems with single-factor authentication is that a malicious user can easily access your account if they obtain your password. This could occur through a hacking attempt, data leak or <a href="https://ovic.vic.gov.au/privacy/for-agencies/guidance-and-resources/what-are-phishing-attacks-and-how-to-protect-against-them/">phishing attack</a>.</p>
+<p>To make your account more secure, many services are now adding an additional authentication factor. This means your authentication consists of two factors: &quot;Something you know&quot; + &quot;Something you have&quot;. The two most common forms of MFA are SMS verification codes and time-based authentication codes generated by an app. You have likely already used MFA if you conduct your banking online.</p>
+<p>A breach of your account can have significant impacts including mass data leaks. This can have serious financial penalties. To protect both yourself and the organisation from liabilities should your account become compromised, we are progressively enabling multi-factor authentication across a range of our services.</p>
+<p>
+<figure>
+    <div class="relative w-full mb-6 overflow-hidden pt-9/16">
+        <iframe class="w-full h-full border-0 absolute inset-0" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4CQKG?pid=ocpVideo0-innerdiv-oneplayer&amp;postJsllMsg=true&amp;maskLevel=20&amp;market=en-us" allowfullscreen></iframe>
+    </div>
+</figure>
+</p>
+<p>Test Image</p>
+<p><figure class="content-center">
+    <img src="../static/corporatesystems/multi-factorauthentication/ccm_unified_authentication_service.png" alt="" title="CCM Unified Authentication Service" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><strong>Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.</strong></p>
+<doc-tabs>
+<doc-tab id="ccm-unified-authentication-service">
+<template #title>CCM Unified Authentication Service</template>
+<p><figure class="content-center">
+    <img src="../static/corporatesystems/multi-factorauthentication/ccm_unified_authentication_service.png" alt="" title="CCM Unified Authentication Service" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>For services accessible by students, staff &amp; parents including:</p>
+<ul>
+<li>Edumate</li>
+<li>Learner.Link</li>
+</ul>
+<p>You will be prompted to set up your MFA when you first log in.</p>
+<p>The following methods generating the authentication tokens are officially supported:</p>
+<ul>
+<li>SMS (mobile service required)</li>
+<li>Microsoft Authenticator mobile app (no service required)</li>
+<li>Token2 programmable card (suitable for staff who do not have a mobile device).</li>
+</ul>
+<p>In addition, staff may choose to use any other password management app or browser extension capable of generating TOTP tokens such as Google Authenticator, 1Password or LastPass. Limited technical support is available for these options but general instructions are provided at the bottom of the page.</p>
+<p><strong>Setting up SMS or Microsoft Authenticator app</strong>
+You will be automatically prompted to setup multifactor authentication the first time you login.</p>
+<p>![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified Authentication_Service_-_Required.png &quot;Multifactor Authentication is Required&quot;)</p>
+<p>Once you select &quot;Click here to enable Multifactor Authentication&quot;, you can select the authentication method you wish to use. We recommend that you set up both options. This can be done once you have configured the first option.</p>
+<p><figure class="content-center">
+    <img src="../static/corporatesystems/multi-factorauthentication/ccm_unified_authentication_service_-_not_enabled.png" alt="" title="Multifactor Authentication has not been enabled" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When you select &quot;Add Authenticator App&quot;, you will be presented with a QR code to scan. <span style="color:red"><strong>You will need to scan this code with a multifactor authentication app.</strong></span> We recommend that you install the <a href="https://www.microsoft.com/en-us/account/authenticator">Microsoft Authenticator</a> app as this can also be used for CCM Single Sign-On authentication.</p>
+<p><strong>Setting up Token2 programmable card</strong>
+This service will be coming soon. Please express interest to your local IT Manager.</p>
+<p><strong>Setting up a generic password management app or browser extension</strong>
+The following options are common alternatives. They are not officially supported by IT Services:</p>
+<ol>
+<li>1Password (commercial mobile app + browser extension)</li>
+<li>LastPass (commercial mobile app + browser extension)</li>
+<li><a href="https://chrome.google.com/webstore/detail/gauth-authenticator/ilgcnhelpchnceeipipijaljkblbcobl">Gauth Authenticator</a> (open source browser extension)</li>
+<li><a href="https://winauth.github.io/winauth/index.html">WinAuth</a> (open source desktop app)</li>
+</ol>
+<p>If your app is unable to scan the QR code, you can add a service manually. To do this you will need to extract the secret key from the QR code:</p>
+<ol>
+<li>Right-click the displayed QR code and save it to your computer</li>
+<li>Upload the QR code to <a href="https://qrinfopoint.com/qr-code-scanner/">https://qrinfopoint.com/qr-code-scanner/</a></li>
+<li>The secret key will be shown on screen. It is a string of numbers and letters.</li>
+<li>In your preferred app, add a new service, look for a one time password option and copy the secret key.</li>
+</ol>
+</doc-tab>
+<doc-tab id="ccm-single-sign-on">
+<template #title>CCM Single Sign-On</template>
+<p><figure class="content-center">
+    <img src="../static/corporatesystems/multi-factorauthentication/ccm_single_sign-on.png" alt="" title="CCM Single Sign-on" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>For services accessible by students &amp; staff only including:
+*Office 365 including Outlook, Teams, OneDrive etc
+*Ci Anywhere
+*Clickview</p>
+<blockquote>
+<p>CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021.</p>
+</blockquote>
+<ol>
+<li><p>Sign into Microsoft 365 with your work or school account with your password like you normally do. After you choose <strong>Sign in</strong>, you&#x27;ll be prompted for more information.
+<figure class="content-center">
+    <img src="../static/corporatesystems/multi-factorauthentication/ccm_single_sign-on_-_more_information.png" alt="" title="More information required" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</li>
+<li><p>Choose <strong>Next</strong>.</p>
+</li>
+<li><p>The default authentication method is to use the free Microsoft Authenticator app. If you have it installed on your mobile device, select <strong>Next</strong> and follow the prompts to add this account. If you don&#x27;t have it installed there is a link provided to download it.</p>
+</li>
+</ol>
+<p>If you would rather use SMS messages sent to your phone instead, select <strong>I want to set up a different method</strong>. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.</p>
+<ol start="4">
+<li>Once you complete the instructions to specify your additional verification method, the next time you sign in to Microsoft 365, you&#x27;ll be prompted to provide the additional verification information or action, such as typing the verification code provided by your authenticator app or sent to you by text message.</li>
+</ol>
+</doc-tab>
+</doc-tabs>
 
 
 
@@ -236,7 +344,7 @@
             </div>
 
             <div class="flex flex-wrap items-center justify-between mt-14">
-    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/JoelMTaylor/Documentation/blob/main/Corporate Systems/Blank - Copy - Copy - Copy.md" target="_blank" rel="noopener">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/JoelMTaylor/Documentation/blob/main/CorporateSystems/Multi-factor Authentication.md" target="_blank" rel="noopener">
         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         <span>Edit this page</span>
     </a>
@@ -246,17 +354,17 @@
 
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/Documentation/corporate-systems/blank---copy---copy-(2)/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/Documentation/corporatesystems/corpsys_main/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">Blank Copy Copy (2)</span>
+                <span class="block mt-1">Edumate</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
-        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/Documentation/corporate-systems/corpsys_main/">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/Documentation/edumate/edumate_main/">
             <span>
                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
                 <span class="block mt-1">Edumate</span>
@@ -310,6 +418,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Blank Copy Copy Copy", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Multi-factor Authentication (MFA /2FA)", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
