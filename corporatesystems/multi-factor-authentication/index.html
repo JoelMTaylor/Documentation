@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/Documentation/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/Documentation/favicon.ico" rel="icon" />
-    <link href="/Documentation/resources/css/retype.css?v=1.11.2.700870106621" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/Documentation/resources/css/retype.css?v=1.11.2.700870558314" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.700870106621" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.700870558314" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/Documentation/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.700870106621" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.700870558314" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -232,6 +232,25 @@
         <span>Multi-factor Authentication (MFA /2FA)</span>
     </h1>
 </doc-anchor-target>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
+    <div class="flex items-center">
+        <div>By</div>
+        <div class="ml-2 flex items-center">
+          <div class="flex-shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" fill="white"><g><rect width="2rem" height="1.7rem" fill="#c5c5c5"/><circle r="0.44rem" cy="0.83rem" cx="1rem"/><ellipse ry="0.96rem" rx="0.77rem" cy="2.15rem" cx="1rem"/></g></svg>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350">Cameron Weir</div>
+        </div>
+        <div>,</div>
+        <div class="ml-2 flex items-center">
+          <div class="flex-shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" fill="white"><g><rect width="2rem" height="1.7rem" fill="#c5c5c5"/><circle r="0.44rem" cy="0.83rem" cx="1rem"/><ellipse ry="0.96rem" rx="0.77rem" cy="2.15rem" cx="1rem"/></g></svg>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350">Test text</div>
+        </div>
+    </div>
+</div>
+
 <doc-anchor-target id="what-is-multi-factor-authentication">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-multi-factor-authentication">#</doc-anchor-trigger>
@@ -246,12 +265,6 @@
     <div class="relative w-full mb-6 overflow-hidden pt-9/16">
         <iframe class="w-full h-full border-0 absolute inset-0" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4CQKG?pid=ocpVideo0-innerdiv-oneplayer&amp;postJsllMsg=true&amp;maskLevel=20&amp;market=en-us" allowfullscreen></iframe>
     </div>
-</figure>
-</p>
-<p>Test Image</p>
-<p><figure class="content-center">
-    <img src="../../static/corporatesystems/multi-factorauthentication/ccm_unified_authentication_service.png" alt="" title="CCM Unified Authentication Service" />
-    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><strong>Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.</strong></p>
@@ -315,10 +328,12 @@ The following options are common alternatives. They are not officially supported
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>For services accessible by students &amp; staff only including:
-*Office 365 including Outlook, Teams, OneDrive etc
-*Ci Anywhere
-*Clickview</p>
+<p>For services accessible by students &amp; staff only including:</p>
+<ul>
+<li>Office 365 including Outlook, Teams, OneDrive etc</li>
+<li>Ci Anywhere</li>
+<li>Clickview</li>
+</ul>
 <blockquote>
 <p>CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021.</p>
 </blockquote>
@@ -335,7 +350,7 @@ The following options are common alternatives. They are not officially supported
 <li><p>The default authentication method is to use the free Microsoft Authenticator app. If you have it installed on your mobile device, select <strong>Next</strong> and follow the prompts to add this account. If you don&#x27;t have it installed there is a link provided to download it.</p>
 </li>
 </ol>
-<p>If you would rather use SMS messages sent to your phone instead, select <strong>I want to set up a different method</strong>. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.</p>
+<p>    If you would rather use SMS messages sent to your phone instead, select <strong>I want to set up a different method</strong>. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.</p>
 <ol start="4">
 <li>Once you complete the instructions to specify your additional verification method, the next time you sign in to Microsoft 365, you&#x27;ll be prompted to provide the additional verification information or action, such as typing the verification code provided by your authenticator app or sent to you by text message.</li>
 </ol>
