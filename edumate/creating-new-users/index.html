@@ -26,11 +26,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/Documentation/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/Documentation/favicon.ico" rel="icon" />
-    <link href="/Documentation/resources/css/retype.css?v=1.11.2.701132203280" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/Documentation/resources/css/retype.css?v=1.11.2.701143788928" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.701132203280" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.701143788928" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/Documentation/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.701132203280" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.701143788928" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -243,7 +243,7 @@
 </div>
 
 <doc-panels>
-   <doc-panel id="if-staff-exists-in-edumate-but-not-as-a-staff-member">
+   <doc-panel id="if-staff-exists-in-edumate-but-not-as-a-staff-member" collapsed>
        <template #title>If staff exists in Edumate, but not as a staff member</template>
 <p>To create new staff (as users) as contacts in Edumate - if your staff already exist in Edumate, but not as a staff member:</p>
 <ul>
@@ -255,7 +255,7 @@
 <li>Email note:  please note on the General tab you are to store their school issued email address (this is the email account Edumate will use to send emails from and to).  Under their staff tab, this is where you store their personal/home account email address.  This is for record keeping only, Edumate does not use this email address.</li>
 </ul>
    </doc-panel>
-   <doc-panel id="create-new-staff-member-from-scratch">
+   <doc-panel id="create-new-staff-member-from-scratch" collapsed>
        <template #title>Create new staff member from scratch</template>
 <p>To create new staff as contacts in Edumate - if the contact does not already exist in Edumate:</p>
 <ul>
@@ -267,7 +267,7 @@
 <li>Now navigate to their staff tab and complete their start date, employment type, etc - Press Save.</li>
 </ul>
    </doc-panel>
-   <doc-panel id="to-make-a-teacher">
+   <doc-panel id="to-make-a-teacher" collapsed>
        <template #title>To make a teacher</template>
 <p>To ma​​​ke a teacher, a teacher in Edumate you will need to:</p>
 <ul>
