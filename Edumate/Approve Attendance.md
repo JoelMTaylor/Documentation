@@ -1,6 +1,6 @@
 ---
 authors:
-  - name: Sarah Dawson
+  - name: Sarah Dawson<br><small>Edumate Coordinator</small>
     email: 
     link: 
     avatar: ../static/SarahDawson_Icon.png
