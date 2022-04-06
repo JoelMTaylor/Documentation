@@ -2,4 +2,4 @@ visibility: private
 icon: gear
 order: -103
 label: null
-expanded: true
+expanded: false

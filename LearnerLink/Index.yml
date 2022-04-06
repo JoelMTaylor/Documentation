@@ -2,4 +2,4 @@ visibility: public
 icon: /static/LearnerLink.svg
 order: 0
 label: Learner.Link
-expanded: true
+expanded: false

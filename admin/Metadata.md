@@ -7,7 +7,7 @@ authors:
 date: 1990-01-02
 description: Description Test
 title: Title Test
-label: Label Test
+label: Metadata Label Test
 categories:
   - Edumate Coordinators
   - Teaching Staff
@@ -36,7 +36,7 @@ authors:
 date: 1990-01-02
 description: Description Test
 title: Title Test
-label: Label Test
+label: Metadata Label Test
 categories:
   - Edumate Coordinators
   - Teaching Staff

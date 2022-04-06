@@ -2,4 +2,4 @@ visibility: public
 icon: /static/Edumate.svg
 order: 0
 label: null
-expanded: true
+expanded: false

@@ -2,4 +2,4 @@ visibility: public
 icon: organization
 order: 0
 label: Corporate Systems
-expanded: true
+expanded: false
