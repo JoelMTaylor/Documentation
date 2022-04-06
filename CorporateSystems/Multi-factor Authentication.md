@@ -1,17 +1,38 @@
 ---
 authors:
   - name: Cameron Weir
-    email: 
-    link: 
+    email:
+    link:
     avatar: ../static/CameronWeir_Icon.png
-description: 
-title: Multi-Factor Authentication
-icon: 
+date: 2021-03-1902
+description:
+title:
+label: Multi-Factor Authentication
+categories:
+  - Edumate Coordinators
+  - Teaching Staff
+  - Registrar
+  - Office Administrators
+  - Student Services
+  - Fees & Finance
+  - Timetablers
+  - Curriculum Leaders
+  - Student Welfare
+  - Aides & Support
+  - Staff Management
+tags:
+icon:
 layout: default
 order: 0
 visibility: public
 ---
-# Multi-factor Authentication (MFA / 2FA)
+<br>
+
+!!!success
+This article has been formally reviewed and approved for use.
+!!!
+
+# Multi Factor Authentication
 
 ## What is multi-factor authentication?
 
@@ -81,7 +102,7 @@ For services accessible by students & staff only including:
 - Ci Anywhere
 - Clickview
 
->CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021. 
+>CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021.
 
 1. Sign into Microsoft 365 with your work or school account with your password like you normally do. After you choose **Sign in**, you'll be prompted for more information.
 ![More information required for SSO](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on_-_More_Information.png "More information required")

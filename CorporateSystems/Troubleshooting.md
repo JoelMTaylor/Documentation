@@ -1,17 +1,28 @@
 ---
 authors:
   - name: Cameron Weir
-    email: 
-    link: 
+    email:
+    link:
     avatar: ../static/CameronWeir_Icon.png
-description: 
-title: Unified Authentication FAQ
-icon: 
+date: 2021-02-19
+description:
+categories:
+  - Edumate Coordinators
+  - Teaching Staff
+  - Registrar
+  - Office Administrators
+  - Student Services
+tags:
+icon:
 layout: default
 order: 0
 visibility: public
 ---
-# Unified Authentication Service - FAQ and Troubleshooting
+# Troubleshooting
+
+!!!success
+This article has been formally reviewed and approved for use.
+!!!
 
 The CCM Unified Authentication Service provides a single sign-on system for students, parents and staff to the following services:
 1. Edumate
@@ -70,9 +81,9 @@ More information about how lockouts work is [available here](https://wiki.studen
 
 #### "User not found" or similar error in Canvas & Edumate
 One of the following issues is present:
-- If error affects Canvas & Edumate: 
+- If error affects Canvas & Edumate:
 	+ The employeeID attribute in Active Directory is not set correctly to the Edumate Contact ID (SIS ID). The correct value can be most easily retrieved by viewing the user in Canvas.
-- If error only affects Edumate: 
+- If error only affects Edumate:
 	+ The user account is not correctly configured in Edumate. This will need to be referred to the College registrar.
 
 +++ Parent Errors

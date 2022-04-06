@@ -1,0 +1,5 @@
+visibility: private
+icon: gear
+order: 10
+label: System Administration
+expanded: false
