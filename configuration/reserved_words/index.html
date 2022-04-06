@@ -29,11 +29,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/Documentation/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/Documentation/favicon.ico" rel="icon" />
-    <link href="/Documentation/resources/css/retype.css?v=2.2.702602877990" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/Documentation/resources/css/retype.css?v=2.2.702603247613" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=2.2.702602877990" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=2.2.702603247613" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/Documentation/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=2.2.702602877990" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=2.2.702603247613" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -86,7 +86,7 @@
                                 </a>
                             </li>
                             <li class="md:mr-6">
-                                <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/Documentation/sharepoint/sharepoint_main/" target="_parent">
+                                <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/sharepoint/sharepoint_main.md" target="_parent">
                                     <img class="mb-px mr-1" width="18" src="/Documentation/static/sharepoint.svg" />
                                     <span>SharePoint</span>
                                 </a>
@@ -291,7 +291,7 @@
     </h3>
 </doc-anchor-target>
 <p>A <code v-pre>CNAME</code> file will be automatically created if the <a href="../project/#url"><code v-pre>url</code></a> is configured with a domain or sub-domain.</p>
-<p>For instance, including <code v-pre>url: docs.example.com</code> within your <code v-pre>retype.yml</code> project config file also instructs Retype to create a <code v-pre>CNAME</code> file with the value <code v-pre>docs.example.com</code>. That <code v-pre>CNAME</code> file is used by <a href="../../guides/github-actions/">GitHub Pages</a> and possibly other website hosting services as the way to configure custom domain name hosting.</p>
+<p>For instance, including <code v-pre>url: docs.example.com</code> within your <code v-pre>retype.yml</code> project config file also instructs Retype to create a <code v-pre>CNAME</code> file with the value <code v-pre>docs.example.com</code>. That <code v-pre>CNAME</code> file is used by <a href="../guides/github-actions.md">GitHub Pages</a> and possibly other website hosting services as the way to configure custom domain name hosting.</p>
 <p>If you manually create a <code v-pre>CNAME</code> file within the root of the <a href="../project/#input">input</a> folder of your project, Retype will not automatically create the <code v-pre>CNAME</code> file, even if the <a href="../project/#url"><code v-pre>url</code></a> or <a href="../project/#cname"><code v-pre>cname</code></a> is configured or conflicts.</p>
 <doc-anchor-target id="default-pages">
     <h3>
@@ -319,7 +319,7 @@
 <li><code v-pre>retype.yaml</code></li>
 <li><code v-pre>retype.json</code></li>
 </ol>
-<p>For instance, if you run the <a href="../../guides/cli/">CLI</a> command <code v-pre>retype watch docs</code>, Retype will first try to find the project configuration file  <code v-pre>docs/retype.yml</code>. If not found, then <code v-pre>docs/retype.yaml</code> will be tested and so on.</p>
+<p>For instance, if you run the <a href="../guides/cli.md">CLI</a> command <code v-pre>retype watch docs</code>, Retype will first try to find the project configuration file  <code v-pre>docs/retype.yml</code>. If not found, then <code v-pre>docs/retype.yaml</code> will be tested and so on.</p>
 <p>If you run the command <code v-pre>retype watch docs/retype.jsom</code>, even if a <code v-pre>retype.yml</code> is present, Retype will only read the <code v-pre>retype.json</code> file as you are explicitly passing the project configuration file path.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
