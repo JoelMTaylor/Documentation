@@ -26,7 +26,6 @@ layout: default
 order: 0
 visibility: public
 ---
-<br>
 
 !!!success
 This article has been formally reviewed and approved for use.
