@@ -21,7 +21,7 @@ categories:
   - Aides & Support
   - Staff Management
 tags: TEST-TAG
-icon: rocket
+icon: cloud
 image: ../static/Teams.svg
 layout: default
 order: 0
